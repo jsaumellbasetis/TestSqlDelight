@@ -76,7 +76,7 @@ android {
     }
 }
 
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+/*tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
         freeCompilerArgs = listOf(
@@ -86,7 +86,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
             "plugin:androidx.compose.compiler.plugins.kotlin:suppressKotlinVersionCompatibilityCheck=true"
         )
     }
-}
+}*/
 
 dependencies {
     implementation(project(Modules.Shared.root))

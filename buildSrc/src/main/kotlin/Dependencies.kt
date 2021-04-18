@@ -14,7 +14,7 @@ object Versions {
     const val accompanist = "0.6.0"
 
     // Android Gradle Plugin
-    const val androidGradle = "7.0.0-alpha09"
+    const val androidGradle = "7.0.0-alpha14"
 
 
     // Other

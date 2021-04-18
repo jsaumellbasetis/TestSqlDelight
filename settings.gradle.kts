@@ -9,7 +9,7 @@ pluginManagement {
 }
 rootProject.name = "KMMBase"
 
-enableFeaturePreview("GRADLE_METADATA")
+//enableFeaturePreview("GRADLE_METADATA")
 
 include(":androidApp")
 include(":shared")
